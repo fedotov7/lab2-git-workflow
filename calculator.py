@@ -38,7 +38,7 @@ def divide(a, b):
 def demo_calculator():
     """Demonstrate calculator functions."""
     print("Simple Calculator")
-    print(f"2 + 3 = {add(2, 3)}  # BASE")
+    print(f"2 + 3 = {add(2, 3)}  # RESOLVED")
     print(f"5 - 2 = {subtract(5, 2)}")
     print(f"2 * 3 = {multiply(2, 3)}")
     print(f"10 / 2 = {divide(10, 2)}")
