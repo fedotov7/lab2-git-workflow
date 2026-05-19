@@ -35,9 +35,13 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-if __name__ == "__main__":
+def demo_calculator():
+    """Demonstrate calculator functions."""
     print("Simple Calculator")
     print(f"2 + 3 = {add(2, 3)}")
     print(f"5 - 2 = {subtract(5, 2)}")
     print(f"2 * 3 = {multiply(2, 3)}")
     print(f"10 / 2 = {divide(10, 2)}")
+
+if __name__ == "__main__":
+    demo_calculator()
