@@ -1,13 +1,36 @@
 def add(a, b):
+    """Return the sum of a and b."""
     return a + b
 
 def subtract(a, b):
+    """Return the difference of a and b."""
     return a - b
 
 def multiply(a, b):
+    """Return the product of a and b.
+    
+    Args:
+        a (float): First number
+        b (float): Second number
+    
+    Returns:
+        float: Product of a and b
+    """
     return a * b
 
 def divide(a, b):
+    """Divide a by b.
+    
+    Args:
+        a (float): Numerator
+        b (float): Denominator
+    
+    Returns:
+        float: Result of division
+    
+    Raises:
+        ValueError: If denominator is zero
+    """
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
